@@ -1,0 +1,151 @@
+[
+  {
+    "id": "connectivity-basics",
+    "title": "Connectivity diagnosis without jargon",
+    "audience": "Households, students, navigators",
+    "quick": "Start by separating availability, affordability, reliability, devices, skills, accessibility and useful-service needs. A faster advertised plan does not solve every barrier.",
+    "steps": [
+      "Check whether fixed or mobile service is actually available at the location.",
+      "Record price, advertised speed and several measured speed/latency observations.",
+      "List devices and critical uses: school, work, telehealth, business and emergency communications.",
+      "Identify the bottleneck before selecting an intervention."
+    ],
+    "advanced": "Treat effective access as a chain: infrastructure \u2192 service offer \u2192 affordability \u2192 device \u2192 skills/accessibility \u2192 reliable use \u2192 beneficial service. One failed link can dominate the outcome.",
+    "expert": "For community analysis, keep provider-reported availability, measured performance, subscription/adoption and affordability in separate fields. Preserve date, geography, methodology and source provenance."
+  },
+  {
+    "id": "trystero",
+    "title": "Decentralized multiplayer with Trystero + WebRTC",
+    "audience": "Teams, developers, institutions",
+    "quick": "People join the same room. Trystero helps browsers discover each other. Once connected, shared project data travels browser-to-browser over WebRTC rather than through an application data server.",
+    "steps": [
+      "Choose a discovery strategy (Nostr is the default; MQTT, BitTorrent and IPFS are alternatives).",
+      "Use a hard-to-guess room name; add a shared room password for stronger discovery-session privacy.",
+      "Join the room and confirm peer presence.",
+      "Share tasks, decisions and notes. Local IndexedDB remains the durable copy on each participant device.",
+      "If peers cannot establish direct connectivity on restrictive networks, configure a TURN service or optional self-hosted relay."
+    ],
+    "advanced": "Trystero abstracts WebRTC signaling while its makeAction API carries application events, serialization, chunking and peer targeting. Discovery media exchange session information; application payloads use the resulting WebRTC connection.",
+    "expert": "This suite pins the browser integration to Trystero 0.25.3 semantics. It uses action objects (send/onMessage) introduced in the 0.25 API. The P2P mesh is intentionally room-scoped because browsers have finite peer-connection capacity."
+  },
+  {
+    "id": "bead",
+    "title": "Reading Texas broadband project status correctly",
+    "audience": "Residents, counties, planners, media",
+    "quick": "Do not treat an announcement or award as an active connection. Track the lifecycle separately: selected/awarded \u2192 engineering/permitting \u2192 construction \u2192 activation \u2192 adoption.",
+    "steps": [
+      "Open the dated BDO/NTIA source.",
+      "Record geography and locations/premises covered.",
+      "Record technology and expected performance.",
+      "Record current project stage and verification date.",
+      "Only call a location operational when activation is actually verified."
+    ],
+    "advanced": "Program totals can describe selected applicants or eligible locations without proving every premise is built or subscribing. Maintain status at project/location granularity when possible.",
+    "expert": "Join administrative award data to coverage/location data only with compatible identifiers and vintage. Preserve uncertainty when award boundaries or Broadband Serviceable Location counts change."
+  },
+  {
+    "id": "mapping",
+    "title": "Broadband map challenge workflow",
+    "audience": "Residents, libraries, counties",
+    "quick": "If an official map says service is available but it is not actually orderable, document the discrepancy and use the official challenge process.",
+    "steps": [
+      "Capture the map claim and date.",
+      "Try the provider's normal ordering process and retain evidence.",
+      "Record address/location evidence without publishing sensitive household details.",
+      "Submit through the current official FCC/BDO process.",
+      "Track the challenge outcome separately from your original observation."
+    ],
+    "advanced": "An availability challenge disputes a service claim; it is not the same as a speed-test complaint. Performance evidence can support local investigation but should not be mislabeled as verified availability data.",
+    "expert": "For aggregate community analysis, classify observations by evidence type, deduplicate locations, and avoid converting voluntary reports into population prevalence estimates without a defensible sampling method."
+  },
+  {
+    "id": "cross-domain",
+    "title": "Cross-domain project design",
+    "audience": "Schools, clinics, libraries, counties, utilities, workforce teams",
+    "quick": "A connectivity project is stronger when each affected discipline owns a concrete dependency and outcome instead of merely being named as a partner.",
+    "steps": [
+      "Define the connectivity barrier and geography.",
+      "Add each affected domain: education, health, workforce, emergency, energy, water, mobility, agriculture, libraries or public services.",
+      "Assign an owner for each dependency.",
+      "Choose shared metrics and verification dates.",
+      "Record decisions, evidence and unresolved assumptions in the room."
+    ],
+    "advanced": "Use dependency mapping: connectivity inputs enable service capabilities, but service outcomes also depend on staffing, devices, accessibility, workflow, policy, power resilience and user adoption.",
+    "expert": "Model cross-domain work as a typed dependency graph. Prevent double counting by separating infrastructure outputs, service capabilities, utilization and downstream outcomes."
+  },
+  {
+    "id": "telehealth",
+    "title": "Telehealth connectivity readiness",
+    "audience": "Patients, clinics, libraries",
+    "quick": "A video visit needs more than download speed: reliable upload, low disruption, a usable camera/microphone, privacy, accessibility and support matter.",
+    "steps": [
+      "Test connection quality at the place the visit will occur.",
+      "Check camera, microphone and browser/app compatibility.",
+      "Choose a private, accessible location.",
+      "Create a backup phone/contact plan.",
+      "For community rooms, define cleaning, privacy and support procedures."
+    ],
+    "advanced": "Latency, jitter and packet loss can harm interactive sessions even when throughput looks adequate. Test at representative times and on the actual Wi-Fi/device path.",
+    "expert": "Do not infer clinical quality from connectivity alone. Keep telecommunications readiness separate from clinical appropriateness, consent, privacy and provider workflow requirements."
+  },
+  {
+    "id": "emergency",
+    "title": "Emergency communications resilience",
+    "audience": "Households, hubs, emergency managers",
+    "quick": "Plan for broadband, cellular and power failures as separate events that can happen together.",
+    "steps": [
+      "List critical communications functions.",
+      "Identify primary, alternate and contingency channels.",
+      "Estimate router/modem/device backup runtime.",
+      "Keep offline copies of essential procedures and contacts.",
+      "Exercise the plan and record what failed."
+    ],
+    "advanced": "Redundancy only helps when failure modes are sufficiently independent. Two services sharing the same upstream fiber or power dependency may fail together.",
+    "expert": "Use fault-tree or dependency analysis for critical sites: access circuit, middle mile, DNS, power, local LAN/Wi-Fi, device fleet, identity systems and staffing."
+  },
+  {
+    "id": "webllm",
+    "title": "Local WebLLM planning assistant",
+    "audience": "Educators, planners, researchers",
+    "quick": "WebLLM can run a compatible language model locally in a supported browser. It is optional; the OS still provides deterministic tools when local AI is unavailable.",
+    "steps": [
+      "Check WebGPU/browser capability.",
+      "Load the model catalog only when online.",
+      "Choose a model sized for device memory.",
+      "Keep source notes in the prompt and verify generated claims.",
+      "Unload the model when finished on memory-constrained devices."
+    ],
+    "advanced": "Model weights can be large and may be cached by the WebLLM runtime. Local inference improves data locality but does not make model output automatically factual.",
+    "expert": "Treat generated plans as hypotheses/work products. Retain source IDs and separate sourced facts, assumptions, calculations and proposed actions before institutional use."
+  },
+  {
+    "id": "pwa",
+    "title": "PWA and offline mode",
+    "audience": "Everyone",
+    "quick": "When hosted over HTTPS, the service worker caches the application shell and core reference data. Your project records live in IndexedDB. Live websites and peer discovery still require network connectivity.",
+    "steps": [
+      "Host the folder over HTTPS.",
+      "Open once online so the service worker can install.",
+      "Install the PWA if the browser offers it.",
+      "Export periodic JSON backups.",
+      "Check freshness labels after working offline."
+    ],
+    "advanced": "The service worker uses a versioned cache for same-origin assets. Third-party Trystero/WebLLM modules are network capabilities and are not falsely presented as guaranteed offline dependencies.",
+    "expert": "For controlled deployments, vendor audited dependency builds under the same origin and update CSP/SRI/hash manifests as part of a reproducible release process."
+  },
+  {
+    "id": "evidence",
+    "title": "Evidence and provenance for public planning",
+    "audience": "Researchers, institutions, communities",
+    "quick": "Every important number should answer: who published it, when, for what geography, using what dataset or method, and with what limitation?",
+    "steps": [
+      "Prefer official measured/administrative data when available.",
+      "Store publication and retrieval dates.",
+      "Record geography and definitions.",
+      "Keep modeled scenarios visibly separate from observations.",
+      "Re-verify time-sensitive programs before acting."
+    ],
+    "advanced": "A reliable evidence registry is as important as the number itself because definitions and program status change over time.",
+    "expert": "Use stable source identifiers, schema versioning, licensing metadata and reproducible transforms when deriving indicators. Hashes establish byte integrity, not authorship."
+  }
+]

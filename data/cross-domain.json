@@ -1,0 +1,401 @@
+{
+  "domains": [
+    {
+      "id": "education",
+      "name": "Education & Learning",
+      "icon": "\ud83c\udf93",
+      "dependency": "Reliable household/school/library connectivity, suitable devices, accessible learning platforms and technical support.",
+      "stakeholders": [
+        "students",
+        "parents",
+        "teachers",
+        "district IT",
+        "libraries",
+        "TEA/E-Rate teams",
+        "training providers"
+      ],
+      "sharedMetrics": [
+        "instructional uptime",
+        "device adequacy",
+        "upload capacity",
+        "backup access",
+        "support resolution time"
+      ],
+      "handoffs": [
+        "connectivity\u2192learning continuity",
+        "device bank\u2192student access",
+        "E-Rate\u2192campus network",
+        "library hub\u2192after-hours access"
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Health & Telehealth",
+      "icon": "\ud83e\ude7a",
+      "dependency": "Sufficient bandwidth/latency, camera/mic, privacy, accessibility, provider workflow and resilient power/connectivity.",
+      "stakeholders": [
+        "patients",
+        "clinics",
+        "rural hospitals",
+        "public health",
+        "libraries/community hubs",
+        "RHC applicants",
+        "IT/security"
+      ],
+      "sharedMetrics": [
+        "telehealth readiness",
+        "session failure rate",
+        "private-room access",
+        "backup runtime",
+        "rural site eligibility"
+      ],
+      "handoffs": [
+        "broadband\u2192telehealth",
+        "RHC funding\u2192clinic connectivity",
+        "energy backup\u2192care continuity"
+      ]
+    },
+    {
+      "id": "workforce",
+      "name": "Workforce & Remote Work",
+      "icon": "\ud83e\uddf0",
+      "dependency": "Reliable upload, devices, digital skills, training discovery, interview readiness and secure remote-work setup.",
+      "stakeholders": [
+        "job seekers",
+        "employers",
+        "TWC/workforce boards",
+        "colleges",
+        "libraries",
+        "broadband workforce trainers"
+      ],
+      "sharedMetrics": [
+        "training seats",
+        "application access",
+        "interview reliability",
+        "remote-work readiness",
+        "credential completion"
+      ],
+      "handoffs": [
+        "skills\u2192employment access",
+        "fiber workforce\u2192deployment capacity",
+        "library\u2192job-search lab"
+      ]
+    },
+    {
+      "id": "business",
+      "name": "Small Business & Entrepreneurship",
+      "icon": "\ud83c\udfea",
+      "dependency": "Broadband, payment reliability, online presence, cybersecurity, cloud backup and digital skills.",
+      "stakeholders": [
+        "owners",
+        "chambers",
+        "economic developers",
+        "libraries",
+        "vendors",
+        "cybersecurity advisors"
+      ],
+      "sharedMetrics": [
+        "transaction uptime",
+        "backup coverage",
+        "digital maturity",
+        "support access",
+        "cyber hygiene"
+      ],
+      "handoffs": [
+        "connectivity\u2192commerce",
+        "skills\u2192digitization",
+        "resilience\u2192continuity"
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency Communications",
+      "icon": "\ud83d\udea8",
+      "dependency": "Primary/alternate/contingency communications, backup power, public warning, offline plans and interoperable coordination.",
+      "stakeholders": [
+        "emergency managers",
+        "local alerting authorities",
+        "schools",
+        "utilities",
+        "clinics",
+        "shelters",
+        "RACES/auxiliary communications"
+      ],
+      "sharedMetrics": [
+        "warning reach",
+        "fallback availability",
+        "power runtime",
+        "restoration time",
+        "exercise findings"
+      ],
+      "handoffs": [
+        "power outage\u2192network fallback",
+        "warning failure\u2192alternate channel",
+        "public hub\u2192recovery access"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "Energy & Grid",
+      "icon": "\u26a1",
+      "dependency": "Telemetry, outage notifications, smart meters, DER/microgrid communications and backup power for network equipment.",
+      "stakeholders": [
+        "utilities",
+        "co-ops",
+        "households",
+        "microgrid operators",
+        "emergency managers",
+        "telecom providers"
+      ],
+      "sharedMetrics": [
+        "communications uptime",
+        "backup runtime",
+        "restoration coordination",
+        "DER telemetry continuity"
+      ],
+      "handoffs": [
+        "grid outage\u2192router backup",
+        "fiber/tower power\u2192network availability"
+      ]
+    },
+    {
+      "id": "water",
+      "name": "Water Systems",
+      "icon": "\ud83d\udca7",
+      "dependency": "Telemetry, SCADA/monitoring connectivity, pump power, leak sensing and secure remote access.",
+      "stakeholders": [
+        "utilities",
+        "rural water systems",
+        "municipalities",
+        "operators",
+        "emergency managers"
+      ],
+      "sharedMetrics": [
+        "telemetry uptime",
+        "alarm delivery",
+        "pump communications",
+        "manual fallback readiness"
+      ],
+      "handoffs": [
+        "network outage\u2192manual operations",
+        "connectivity\u2192leak detection"
+      ]
+    },
+    {
+      "id": "mobility",
+      "name": "Mobility & Transportation",
+      "icon": "\ud83d\ude8c",
+      "dependency": "Traveler information, dispatch, charging/fueling systems, telework substitution and emergency routing.",
+      "stakeholders": [
+        "transit",
+        "DOT/local roads",
+        "schools",
+        "employers",
+        "emergency services",
+        "rural residents"
+      ],
+      "sharedMetrics": [
+        "dispatch continuity",
+        "traveler info access",
+        "remote-work substitution",
+        "charging connectivity"
+      ],
+      "handoffs": [
+        "connectivity\u2192trip avoidance",
+        "outage\u2192dispatch fallback"
+      ]
+    },
+    {
+      "id": "agriculture",
+      "name": "Agriculture & Rural Economy",
+      "icon": "\ud83c\udf3e",
+      "dependency": "Weather/market access, precision-ag telemetry, irrigation monitoring, equipment communications and resilient coverage.",
+      "stakeholders": [
+        "farmers",
+        "ranchers",
+        "co-ops",
+        "extension",
+        "ISPs",
+        "water districts",
+        "equipment vendors"
+      ],
+      "sharedMetrics": [
+        "field coverage",
+        "telemetry uptime",
+        "market access",
+        "irrigation communications"
+      ],
+      "handoffs": [
+        "coverage\u2192precision ag",
+        "water telemetry\u2192irrigation",
+        "connectivity\u2192market access"
+      ]
+    },
+    {
+      "id": "libraries",
+      "name": "Libraries & Community Hubs",
+      "icon": "\ud83d\udcda",
+      "dependency": "High-capacity broadband, Wi-Fi, device lending, staff skills, accessible workstations and resilient facilities.",
+      "stakeholders": [
+        "libraries",
+        "patrons",
+        "schools",
+        "workforce boards",
+        "health partners",
+        "local government"
+      ],
+      "sharedMetrics": [
+        "public access sessions",
+        "device loans",
+        "bandwidth headroom",
+        "digital-skills participation",
+        "hub uptime"
+      ],
+      "handoffs": [
+        "library\u2192workforce",
+        "library\u2192telehealth room",
+        "library\u2192student backup access"
+      ]
+    },
+    {
+      "id": "government",
+      "name": "Public Services & Civic Access",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "dependency": "Accessible digital services, identity/account recovery, public access points and assisted navigation.",
+      "stakeholders": [
+        "residents",
+        "state/local agencies",
+        "libraries",
+        "navigators",
+        "disability advocates"
+      ],
+      "sharedMetrics": [
+        "service completion",
+        "accessibility defects",
+        "assisted sessions",
+        "account recovery success"
+      ],
+      "handoffs": [
+        "skills\u2192service access",
+        "library\u2192assisted access",
+        "accessibility\u2192equitable completion"
+      ]
+    }
+  ],
+  "collaborationRoles": [
+    {
+      "id": "resident",
+      "label": "Resident / Household",
+      "capabilities": [
+        "report observations",
+        "create tasks",
+        "comment",
+        "approve household actions"
+      ]
+    },
+    {
+      "id": "navigator",
+      "label": "Digital Navigator",
+      "capabilities": [
+        "triage barriers",
+        "teach skills",
+        "curate resources",
+        "coordinate referrals"
+      ]
+    },
+    {
+      "id": "educator",
+      "label": "Educator / School",
+      "capabilities": [
+        "define learning requirements",
+        "document school access gaps",
+        "coordinate E-Rate-related planning"
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Health Provider",
+      "capabilities": [
+        "define telehealth requirements",
+        "assess privacy/accessibility",
+        "coordinate RHC pathways"
+      ]
+    },
+    {
+      "id": "planner",
+      "label": "Broadband / Infrastructure Planner",
+      "capabilities": [
+        "map gaps",
+        "design alternatives",
+        "estimate infrastructure",
+        "track project stages"
+      ]
+    },
+    {
+      "id": "government",
+      "label": "Local / County Government",
+      "capabilities": [
+        "convene stakeholders",
+        "document public process",
+        "coordinate grants",
+        "publish status"
+      ]
+    },
+    {
+      "id": "library",
+      "label": "Library / Community Hub",
+      "capabilities": [
+        "provide public access",
+        "device lending",
+        "skills support",
+        "host resilient access"
+      ]
+    },
+    {
+      "id": "workforce",
+      "label": "Workforce / Training",
+      "capabilities": [
+        "map training supply",
+        "coordinate credentials",
+        "connect job seekers"
+      ]
+    },
+    {
+      "id": "business",
+      "label": "Business / Employer",
+      "capabilities": [
+        "define service needs",
+        "host work-based learning",
+        "document continuity needs"
+      ]
+    },
+    {
+      "id": "researcher",
+      "label": "Research / Data",
+      "capabilities": [
+        "curate evidence",
+        "audit assumptions",
+        "document uncertainty",
+        "build reproducible analysis"
+      ]
+    },
+    {
+      "id": "emergency",
+      "label": "Emergency Management",
+      "capabilities": [
+        "define continuity requirements",
+        "exercise fallbacks",
+        "coordinate warning/resilience"
+      ]
+    },
+    {
+      "id": "utility",
+      "label": "Utility / Critical Infrastructure",
+      "capabilities": [
+        "define telemetry/power dependencies",
+        "coordinate restoration",
+        "assess backup communications"
+      ]
+    }
+  ]
+}

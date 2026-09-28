@@ -1,0 +1,557 @@
+[
+  {
+    "id": 1,
+    "title": "PRIMARY OBJECTIVE",
+    "body": "Build an operating system capable of helping Texas:\n\n- improve broadband access;\n- improve affordability;\n- improve device access;\n- improve digital literacy;\n- improve public Wi-Fi discovery;\n- improve rural connectivity;\n- improve school connectivity;\n- improve telehealth readiness;\n- improve workforce connectivity;\n- improve remote-work readiness;\n- improve small-business digitization;\n- improve emergency communication resilience;\n- improve local broadband planning;\n- improve community network literacy;\n- identify coverage and speed gaps;\n- identify adoption barriers;\n- distinguish infrastructure gaps from affordability gaps;\n- improve broadband project transparency;\n- improve grant and funding navigation;\n- improve mapping literacy;\n- reduce dependence on a single provider where feasible;\n- improve digital resilience during disasters;\n- improve local economic opportunity.\n\n---"
+  },
+  {
+    "id": 2,
+    "title": "CORE PRINCIPLE",
+    "body": "Treat digital opportunity as:\n\n**Access + Affordability + Devices + Skills + Reliability + Safety + Useful Services**\n\nDo not treat broadband deployment alone as equivalent to digital inclusion.\n\nA community may have physical service available while still facing:\n\n- unaffordable plans;\n- poor reliability;\n- inadequate devices;\n- low digital literacy;\n- accessibility barriers;\n- language barriers;\n- weak competition;\n- poor indoor coverage;\n- inadequate technical support.\n\n---"
+  },
+  {
+    "id": 3,
+    "title": "SYSTEM ARCHITECTURE",
+    "body": "Build using:\n\n- semantic HTML5;\n- responsive CSS;\n- vanilla JavaScript where practical;\n- modular internal architecture;\n- no unnecessary framework dependencies;\n- accessible UI components;\n- progressive enhancement;\n- graceful failure handling.\n\nPreferred delivery:\n\n- standalone `index.html`;\n- embedded CSS;\n- embedded JavaScript;\n- essential functionality without a backend;\n- IndexedDB for structured local state;\n- localStorage only for lightweight preferences;\n- validated JSON import/export;\n- optional PWA mode;\n- optional service worker over HTTPS;\n- honest offline fallback;\n- clearly labeled online-only services.\n\nDo not claim service-worker functionality under `file://`.\n\n---"
+  },
+  {
+    "id": 4,
+    "title": "UNIVERSAL INTERFACE",
+    "body": "Create both:\n\n- sticky top navigation;\n- collapsible side navigation.\n\nTop navigation should include:\n\n- Texas Connectivity OS identity;\n- dashboard;\n- broadband;\n- devices;\n- skills;\n- opportunity;\n- maps;\n- projects;\n- funding;\n- research;\n- search;\n- language;\n- accessibility;\n- connectivity status;\n- data freshness;\n- settings.\n\nSide navigation:\n\nTexas Connectivity OS\n├── Overview\n├── Broadband Access\n├── Broadband Affordability\n├── Speed & Reliability\n├── Rural Connectivity\n├── Public Wi-Fi\n├── Device Access\n├── Device Refurbishment\n├── Digital Literacy\n├── Cyber Safety\n├── Accessibility\n├── Education Access\n├── Telehealth Access\n├── Workforce Access\n├── Remote Work\n├── Small Business\n├── Entrepreneurship\n├── Public Services\n├── Emergency Connectivity\n├── Community Networks\n├── Fiber\n├── Fixed Wireless\n├── Mobile Broadband\n├── Satellite\n├── Broadband Mapping\n├── Infrastructure Planning\n├── County Profiles\n├── Regional Profiles\n├── Scenario Lab\n├── Project Generator\n├── Funding\n├── Research\n├── Evidence\n└── Action Plans\n\nGenerate menus, breadcrumbs and active states from one central route registry.\n\n---"
+  },
+  {
+    "id": 5,
+    "title": "USER MODES",
+    "body": "Support tailored modes for:\n\n- household;\n- student;\n- parent;\n- teacher;\n- remote worker;\n- job seeker;\n- senior;\n- person with disability;\n- rural resident;\n- small business;\n- entrepreneur;\n- library;\n- school;\n- clinic;\n- nonprofit;\n- municipality;\n- county;\n- broadband planner;\n- community organization;\n- researcher.\n\nChanging user mode should alter:\n\n- recommended modules;\n- planning checklists;\n- resource priorities;\n- terminology;\n- project suggestions.\n\nDo not hide general information.\n\n---"
+  },
+  {
+    "id": 6,
+    "title": "CONNECTIVITY DASHBOARD",
+    "body": "The homepage should answer:\n\n1. Is service available here?\n2. Is it affordable?\n3. Is it reliable?\n4. Do I have an adequate device?\n5. Do I have the skills to use digital services effectively?\n6. What public or community alternatives exist?\n7. Which local infrastructure gaps remain?\n8. Which opportunities become reachable with improved connectivity?\n\nWhere verified data exists, show:\n\n- broadband availability;\n- advertised speeds;\n- measured speeds;\n- provider count;\n- affordability context;\n- public Wi-Fi;\n- device-access indicators;\n- adoption indicators;\n- major broadband projects;\n- funding activity.\n\nAlways show dates and sources.\n\n---"
+  },
+  {
+    "id": 7,
+    "title": "CONNECTIVITY SELF-ASSESSMENT",
+    "body": "Create a guided diagnostic.\n\nInputs:\n\n- service type;\n- monthly price;\n- advertised speed;\n- measured speed;\n- outage frequency;\n- household size;\n- number of devices;\n- work/school usage;\n- video calls;\n- telehealth;\n- gaming;\n- accessibility needs.\n\nOutputs:\n\n- likely bandwidth adequacy;\n- reliability concerns;\n- affordability burden;\n- device bottlenecks;\n- recommended next steps.\n\nDo not claim ISP-level diagnostic certainty.\n\n---"
+  },
+  {
+    "id": 8,
+    "title": "INTERNET SPEED EDUCATION",
+    "body": "Explain:\n\n- Mbps;\n- Gbps;\n- download;\n- upload;\n- latency;\n- jitter;\n- packet loss.\n\nExplain why upload speed matters for:\n\n- video calls;\n- remote work;\n- telehealth;\n- content creation;\n- cloud backup.\n\n---"
+  },
+  {
+    "id": 9,
+    "title": "BANDWIDTH ESTIMATOR",
+    "body": "Allow users to model simultaneous use.\n\nExample activities:\n\n- browsing;\n- video streaming;\n- 4K streaming;\n- video conferencing;\n- cloud gaming;\n- telehealth;\n- online classes;\n- file uploads.\n\nCalculate approximate total bandwidth requirement.\n\nClearly label estimates as approximate.\n\n---"
+  },
+  {
+    "id": 10,
+    "title": "SPEED TEST LOG",
+    "body": "Allow users to manually record:\n\n- date;\n- time;\n- provider;\n- download;\n- upload;\n- latency;\n- location category;\n- Wi-Fi or wired.\n\nStore locally.\n\nGraph trends.\n\nDo not automatically collect precise location.\n\n---"
+  },
+  {
+    "id": 11,
+    "title": "RELIABILITY TRACKER",
+    "body": "Allow users to record:\n\n- outages;\n- slowdown;\n- packet loss;\n- service interruptions.\n\nCalculate:\n\n- outage frequency;\n- approximate downtime;\n- recurring time patterns.\n\n---"
+  },
+  {
+    "id": 12,
+    "title": "BROADBAND AFFORDABILITY",
+    "body": "Calculate:\n\n**Broadband Burden = Monthly Internet Cost / Monthly Household Income × 100**\n\nAllow users to compare:\n\n- broadband;\n- mobile hotspot;\n- fixed wireless;\n- satellite;\n- public-access options.\n\n---"
+  },
+  {
+    "id": 13,
+    "title": "TOTAL DIGITAL COST",
+    "body": "Model:\n\nInternet\n+ Mobile\n+ Devices\n+ Repairs\n+ Software\n+ Accessories.\n\nShow annual digital-access cost.\n\n---"
+  },
+  {
+    "id": 14,
+    "title": "PROVIDER COMPARISON",
+    "body": "Allow manual comparison of:\n\n- price;\n- speed;\n- upload;\n- contract;\n- equipment fees;\n- data caps;\n- installation;\n- reliability;\n- customer support.\n\nDo not automatically rank one provider as “best.”\n\n---"
+  },
+  {
+    "id": 15,
+    "title": "BROADBAND TECHNOLOGY EXPLAINER",
+    "body": "Explain:\n\n- fiber;\n- cable;\n- DSL;\n- fixed wireless;\n- mobile broadband;\n- satellite.\n\nFor each show:\n\n- typical strengths;\n- limitations;\n- latency;\n- scalability;\n- installation constraints;\n- resilience considerations.\n\n---"
+  },
+  {
+    "id": 16,
+    "title": "FIBER MODULE",
+    "body": "Explain:\n\n- fiber-to-the-home;\n- middle mile;\n- backhaul;\n- passive optical networks;\n- capacity.\n\nClarify that fiber availability does not guarantee affordability or adoption.\n\n---"
+  },
+  {
+    "id": 17,
+    "title": "FIXED WIRELESS",
+    "body": "Explain:\n\n- towers;\n- line of sight;\n- spectrum;\n- terrain;\n- interference;\n- weather effects.\n\n---"
+  },
+  {
+    "id": 18,
+    "title": "MOBILE BROADBAND",
+    "body": "Cover:\n\n- 4G;\n- 5G;\n- signal strength;\n- congestion;\n- indoor coverage;\n- hotspot use.\n\n---"
+  },
+  {
+    "id": 19,
+    "title": "SATELLITE CONNECTIVITY",
+    "body": "Explain:\n\n- low-earth orbit;\n- geostationary systems;\n- latency;\n- weather;\n- installation;\n- data policies.\n\nAvoid framing satellite as universally superior or inferior.\n\n---"
+  },
+  {
+    "id": 20,
+    "title": "RURAL CONNECTIVITY",
+    "body": "Create dedicated rural planning.\n\nChallenges may include:\n\n- low population density;\n- long fiber runs;\n- tower coverage;\n- terrain;\n- infrastructure cost;\n- affordability;\n- provider competition.\n\nPotential interventions:\n\n- fiber;\n- fixed wireless;\n- community Wi-Fi;\n- satellite;\n- hybrid systems.\n\n---"
+  },
+  {
+    "id": 21,
+    "title": "PUBLIC WI-FI FINDER",
+    "body": "Where verified data exists, display:\n\n- libraries;\n- schools;\n- municipal Wi-Fi;\n- community centers;\n- public hotspots.\n\nShow:\n\n- hours;\n- indoor/outdoor;\n- accessibility;\n- verification date.\n\n---"
+  },
+  {
+    "id": 22,
+    "title": "PUBLIC WI-FI SAFETY",
+    "body": "Explain:\n\n- HTTPS;\n- VPN concepts;\n- sensitive transactions;\n- account security.\n\nDo not imply public Wi-Fi is automatically unsafe.\n\n---"
+  },
+  {
+    "id": 23,
+    "title": "DEVICE ACCESS MODULE",
+    "body": "Support:\n\n- laptops;\n- tablets;\n- smartphones;\n- desktops;\n- accessibility devices.\n\nHelp users assess whether their device is adequate for:\n\n- school;\n- work;\n- telehealth;\n- government services;\n- video calls.\n\n---"
+  },
+  {
+    "id": 24,
+    "title": "DEVICE LIFECYCLE TRACKER",
+    "body": "Record:\n\n- device;\n- purchase date;\n- battery health;\n- storage;\n- operating system;\n- warranty;\n- repairs.\n\n---"
+  },
+  {
+    "id": 25,
+    "title": "DEVICE REFURBISHMENT",
+    "body": "Create guidance for:\n\n- secure wiping;\n- operating system updates;\n- battery replacement;\n- hardware inspection;\n- donation;\n- recycling.\n\nDo not encourage bypassing activation locks or security controls.\n\n---"
+  },
+  {
+    "id": 26,
+    "title": "COMMUNITY DEVICE BANK",
+    "body": "Create a project architecture for:\n\nDonate\n→ Inspect\n→ Securely Wipe\n→ Repair\n→ Reinstall\n→ Distribute\n→ Support.\n\nInclude provenance and privacy safeguards.\n\n---"
+  },
+  {
+    "id": 27,
+    "title": "DIGITAL LITERACY",
+    "body": "Teach:\n\n- browser use;\n- email;\n- search;\n- documents;\n- spreadsheets;\n- video calls;\n- file management;\n- cloud concepts.\n\n---"
+  },
+  {
+    "id": 28,
+    "title": "INFORMATION LITERACY",
+    "body": "Teach users how to evaluate:\n\n- sources;\n- dates;\n- authorship;\n- evidence;\n- manipulation;\n- misinformation.\n\n---"
+  },
+  {
+    "id": 29,
+    "title": "AI LITERACY",
+    "body": "Explain:\n\n- generative AI;\n- strengths;\n- hallucinations;\n- verification;\n- privacy;\n- bias;\n- responsible use.\n\n---"
+  },
+  {
+    "id": 30,
+    "title": "CYBER SAFETY",
+    "body": "Cover:\n\n- password managers;\n- MFA;\n- phishing;\n- malware;\n- scams;\n- software updates;\n- backups;\n- account recovery.\n\nDo not include offensive cybersecurity guidance.\n\n---"
+  },
+  {
+    "id": 31,
+    "title": "DIGITAL IDENTITY SAFETY",
+    "body": "Explain:\n\n- identity theft;\n- account recovery;\n- breach response;\n- credit freezes where applicable;\n- secure document storage.\n\n---"
+  },
+  {
+    "id": 32,
+    "title": "SENIOR DIGITAL LITERACY",
+    "body": "Create accessible modules for:\n\n- video calls;\n- telehealth;\n- online banking safety;\n- government services;\n- scam recognition.\n\n---"
+  },
+  {
+    "id": 33,
+    "title": "ACCESSIBILITY",
+    "body": "Support users with:\n\n- visual disabilities;\n- hearing disabilities;\n- motor limitations;\n- cognitive disabilities.\n\nExplain:\n\n- screen readers;\n- captions;\n- voice control;\n- magnification;\n- keyboard navigation.\n\n---"
+  },
+  {
+    "id": 34,
+    "title": "EDUCATION ACCESS",
+    "body": "Integrate with Texas Learning OS.\n\nAssess:\n\n- broadband;\n- device;\n- quiet workspace;\n- video capability;\n- school platforms.\n\n---"
+  },
+  {
+    "id": 35,
+    "title": "HOMEWORK CONNECTIVITY PLAN",
+    "body": "Allow families to record:\n\n- student devices;\n- connection;\n- school platforms;\n- backup internet location;\n- technical support.\n\n---"
+  },
+  {
+    "id": 36,
+    "title": "TELEHEALTH ACCESS",
+    "body": "Integrate with Texas Health OS.\n\nAssess:\n\n- bandwidth;\n- camera;\n- microphone;\n- privacy;\n- accessibility;\n- technical support.\n\n---"
+  },
+  {
+    "id": 37,
+    "title": "WORKFORCE ACCESS",
+    "body": "Create modules for:\n\n- job search;\n- resume creation;\n- online applications;\n- video interviews;\n- training;\n- remote work.\n\n---"
+  },
+  {
+    "id": 38,
+    "title": "REMOTE-WORK READINESS",
+    "body": "Assess:\n\n- internet reliability;\n- upload speed;\n- workspace;\n- headset;\n- webcam;\n- backup connectivity;\n- cybersecurity.\n\n---"
+  },
+  {
+    "id": 39,
+    "title": "REMOTE-WORK COST CALCULATOR",
+    "body": "Include:\n\n- broadband;\n- electricity;\n- hardware;\n- workspace;\n- software.\n\n---"
+  },
+  {
+    "id": 40,
+    "title": "JOB ACCESS ENGINE",
+    "body": "Show how connectivity enables access to:\n\n- remote jobs;\n- training;\n- applications;\n- certifications.\n\nDo not guarantee employment outcomes.\n\n---"
+  },
+  {
+    "id": 41,
+    "title": "SMALL BUSINESS DIGITAL OS",
+    "body": "Help local businesses assess:\n\n- website;\n- online ordering;\n- payments;\n- maps;\n- email;\n- customer management;\n- cybersecurity;\n- backups;\n- broadband.\n\n---"
+  },
+  {
+    "id": 42,
+    "title": "SMALL BUSINESS DIGITAL MATURITY",
+    "body": "Create transparent stages:\n\nOffline\nBasic Presence\nTransactional\nIntegrated\nResilient.\n\nAvoid implying higher complexity is always necessary.\n\n---"
+  },
+  {
+    "id": 43,
+    "title": "LOCAL E-COMMERCE",
+    "body": "Provide educational modules on:\n\n- online storefronts;\n- inventory;\n- delivery;\n- payment processors;\n- data protection.\n\n---"
+  },
+  {
+    "id": 44,
+    "title": "ENTREPRENEURSHIP",
+    "body": "Show pathways for using connectivity to support:\n\n- freelancing;\n- remote services;\n- digital products;\n- local commerce;\n- education.\n\nAvoid unrealistic income claims.\n\n---"
+  },
+  {
+    "id": 45,
+    "title": "AGRICULTURAL CONNECTIVITY",
+    "body": "Integrate with Texas Food OS.\n\nUse cases:\n\n- precision agriculture;\n- irrigation monitoring;\n- livestock tracking;\n- markets;\n- weather;\n- equipment telemetry.\n\n---"
+  },
+  {
+    "id": 46,
+    "title": "ENERGY CONNECTIVITY",
+    "body": "Integrate with Texas Energy OS.\n\nUse cases:\n\n- smart meters;\n- demand response;\n- DER coordination;\n- outage notifications;\n- microgrids.\n\n---"
+  },
+  {
+    "id": 47,
+    "title": "WATER CONNECTIVITY",
+    "body": "Integrate with Texas Water OS.\n\nUse cases:\n\n- leak detection;\n- telemetry;\n- irrigation;\n- groundwater monitoring;\n- pump systems.\n\n---"
+  },
+  {
+    "id": 48,
+    "title": "EMERGENCY CONNECTIVITY",
+    "body": "Integrate with Community Resilience OS.\n\nPlan for:\n\n- mobile outages;\n- broadband outages;\n- power outages;\n- disaster alerts;\n- backup communication.\n\n---"
+  },
+  {
+    "id": 49,
+    "title": "BACKUP CONNECTIVITY",
+    "body": "Compare:\n\n- mobile hotspot;\n- second provider;\n- fixed wireless;\n- satellite;\n- public Wi-Fi.\n\nDo not imply redundancy is affordable for everyone.\n\n---"
+  },
+  {
+    "id": 50,
+    "title": "COMMUNITY CONNECTIVITY HUBS",
+    "body": "Create planning for:\n\n- libraries;\n- schools;\n- community centers;\n- municipal buildings;\n- shelters.\n\nFunctions may include:\n\n- public Wi-Fi;\n- device lending;\n- telehealth rooms;\n- workforce access;\n- digital literacy.\n\n---"
+  },
+  {
+    "id": 51,
+    "title": "LIBRARY CONNECTIVITY",
+    "body": "Treat libraries as critical digital infrastructure.\n\nSupport:\n\n- Wi-Fi;\n- device lending;\n- printing;\n- workforce assistance;\n- digital literacy;\n- telehealth spaces where appropriate.\n\n---"
+  },
+  {
+    "id": 52,
+    "title": "COMMUNITY NETWORKS",
+    "body": "Explain models such as:\n\n- municipal broadband;\n- cooperatives;\n- open-access networks;\n- nonprofit networks;\n- public-private partnerships.\n\nPresent tradeoffs neutrally.\n\n---"
+  },
+  {
+    "id": 53,
+    "title": "OPEN-ACCESS NETWORKS",
+    "body": "Explain infrastructure where multiple service providers may use shared physical networks.\n\nCover:\n\n- competition;\n- wholesale access;\n- governance;\n- capital cost.\n\n---"
+  },
+  {
+    "id": 54,
+    "title": "MUNICIPAL BROADBAND",
+    "body": "Explain:\n\n- ownership;\n- financing;\n- operations;\n- legal constraints;\n- risks;\n- potential benefits.\n\nDo not advocate for or against a particular political model.\n\n---"
+  },
+  {
+    "id": 55,
+    "title": "COOPERATIVE BROADBAND",
+    "body": "Explain member-owned structures.\n\nCompare:\n\n- governance;\n- capital;\n- rural applicability;\n- operating complexity.\n\n---"
+  },
+  {
+    "id": 56,
+    "title": "BROADBAND MAPPING",
+    "body": "Teach users how to interpret:\n\n- service-availability maps;\n- advertised speeds;\n- challenge processes;\n- census blocks;\n- location fabric concepts.\n\n---"
+  },
+  {
+    "id": 57,
+    "title": "MAP ACCURACY CHALLENGE WORKFLOW",
+    "body": "Where official procedures exist, explain how users can:\n\nObserve discrepancy\n→ Document evidence\n→ Submit challenge\n→ Track status.\n\nDo not fabricate submission systems.\n\n---"
+  },
+  {
+    "id": 58,
+    "title": "COVERAGE GAP DETECTOR",
+    "body": "Combine:\n\n- map data;\n- user-entered speed tests;\n- outage reports;\n- adoption indicators.\n\nIdentify possible areas for investigation.\n\nDo not represent community-submitted data as verified coverage.\n\n---"
+  },
+  {
+    "id": 59,
+    "title": "BROADBAND PROJECT PIPELINE",
+    "body": "Visualize:\n\nNeed Identified\n→ Feasibility\n→ Funding\n→ Engineering\n→ Permitting\n→ Construction\n→ Activation\n→ Adoption.\n\n---"
+  },
+  {
+    "id": 60,
+    "title": "INFRASTRUCTURE COST MODEL",
+    "body": "Allow simplified comparisons for:\n\n- fiber;\n- towers;\n- fixed wireless;\n- public Wi-Fi.\n\nInputs:\n\n- distance;\n- premises;\n- density;\n- terrain;\n- backhaul.\n\nClearly label as planning estimates.\n\n---"
+  },
+  {
+    "id": 61,
+    "title": "MIDDLE-MILE INFRASTRUCTURE",
+    "body": "Explain:\n\n- backbone networks;\n- regional fiber;\n- backhaul;\n- internet exchange connectivity.\n\nShow how last-mile networks depend on middle-mile capacity.\n\n---"
+  },
+  {
+    "id": 62,
+    "title": "LAST-MILE INFRASTRUCTURE",
+    "body": "Explain:\n\n- fiber drops;\n- wireless links;\n- cable;\n- customer equipment.\n\n---"
+  },
+  {
+    "id": 63,
+    "title": "ADOPTION GAP ANALYSIS",
+    "body": "Separate:\n\n**Availability Gap**\n\nfrom:\n\n**Affordability Gap**\n\nfrom:\n\n**Device Gap**\n\nfrom:\n\n**Skills Gap**\n\nfrom:\n\n**Trust / Relevance Gap.**\n\nThis distinction is central to the OS.\n\n---"
+  },
+  {
+    "id": 64,
+    "title": "DIGITAL OPPORTUNITY SCORECARD",
+    "body": "Potential indicators:\n\n- service availability;\n- affordability;\n- speed;\n- reliability;\n- devices;\n- skills;\n- public-access points;\n- telehealth readiness;\n- educational access.\n\nDo not present as an official government score.\n\n---"
+  },
+  {
+    "id": 65,
+    "title": "COUNTY CONNECTIVITY PROFILES",
+    "body": "Create reusable county profiles containing, where available:\n\n- broadband availability;\n- provider count;\n- speed tiers;\n- adoption;\n- affordability context;\n- public Wi-Fi;\n- libraries;\n- schools;\n- healthcare;\n- major projects;\n- rural coverage.\n\n---"
+  },
+  {
+    "id": 66,
+    "title": "REGIONAL TEXAS PROFILES",
+    "body": "Support:\n\n- Panhandle;\n- West Texas;\n- Permian Basin;\n- Rio Grande Valley;\n- Gulf Coast;\n- East Texas;\n- Central Texas;\n- North Texas;\n- rural Texas.\n\nAvoid treating Texas as one connectivity environment.\n\n---"
+  },
+  {
+    "id": 67,
+    "title": "COMMUNITY DIGITAL TWIN",
+    "body": "Create a simplified model containing:\n\n- population;\n- premises;\n- broadband;\n- public Wi-Fi;\n- schools;\n- clinics;\n- libraries;\n- businesses.\n\nAllow users to model interventions.\n\nClearly label as a planning simulation.\n\n---"
+  },
+  {
+    "id": 68,
+    "title": "HOUSEHOLD DIGITAL ACCESS PROFILE",
+    "body": "Optional local profile:\n\n- internet;\n- devices;\n- skills;\n- work needs;\n- school needs;\n- health needs;\n- backup access.\n\nStore locally by default.\n\n---"
+  },
+  {
+    "id": 69,
+    "title": "SCENARIO LAB",
+    "body": "Example scenarios:\n\nfiber reaches 80% of unserved premises\nmonthly broadband cost -20%\npublic Wi-Fi doubles\ndevice ownership increases\ndigital-literacy participation doubles\nmajor provider outage occurs.\n\nEstimate effects on access.\n\nClearly label as simplified.\n\n---"
+  },
+  {
+    "id": 70,
+    "title": "CONNECTIVITY CASCADES",
+    "body": "Example:\n\nPoor broadband\n→ remote-work exclusion\n→ fewer employment options\n→ household financial pressure.\n\nAnother:\n\nBroadband outage\n→ telehealth loss\n→ remote-work interruption\n→ school disruption.\n\nShow intervention points.\n\n---"
+  },
+  {
+    "id": 71,
+    "title": "PROJECT GENERATOR",
+    "body": "Allow users to create connectivity projects.\n\nFields:\n\n- problem;\n- geography;\n- population;\n- intervention;\n- technology;\n- premises served;\n- speed target;\n- affordability target;\n- capital cost;\n- operating cost;\n- timeline;\n- partners;\n- funding;\n- maintenance;\n- evidence;\n- status.\n\nExamples:\n\n- public Wi-Fi hub;\n- rural fiber;\n- fixed wireless;\n- device bank;\n- telehealth room;\n- digital-literacy program.\n\n---"
+  },
+  {
+    "id": 72,
+    "title": "PROJECT PRIORITIZATION",
+    "body": "Compare projects using:\n\n- people served;\n- affordability improvement;\n- reliability;\n- speed;\n- cost;\n- implementation time;\n- rural reach;\n- educational impact;\n- health-access impact;\n- economic opportunity;\n- maintenance.\n\nExpose all weights.\n\n---"
+  },
+  {
+    "id": 73,
+    "title": "COMMUNITY DEVICE PROJECT GENERATOR",
+    "body": "Create workflows for:\n\n- collection;\n- secure wiping;\n- refurbishment;\n- operating-system installation;\n- testing;\n- distribution;\n- support.\n\n---"
+  },
+  {
+    "id": 74,
+    "title": "DIGITAL LITERACY PROJECT GENERATOR",
+    "body": "Potential projects:\n\n- senior digital-skills workshops;\n- job-search labs;\n- cybersecurity classes;\n- student coding clubs;\n- small-business digitization clinics.\n\n---"
+  },
+  {
+    "id": 75,
+    "title": "TELEHEALTH CONNECTIVITY PROJECT GENERATOR",
+    "body": "Model:\n\n- community site;\n- private rooms;\n- bandwidth;\n- devices;\n- accessibility;\n- staffing.\n\n---"
+  },
+  {
+    "id": 76,
+    "title": "REMOTE-WORK HUBS",
+    "body": "Explore shared facilities with:\n\n- reliable broadband;\n- desks;\n- private rooms;\n- printing;\n- power backup.\n\n---"
+  },
+  {
+    "id": 77,
+    "title": "EMERGENCY CONNECTIVITY HUBS",
+    "body": "Model resilient connectivity at:\n\n- shelters;\n- community centers;\n- libraries;\n- emergency facilities.\n\nConsider:\n\n- generator;\n- battery;\n- satellite backup;\n- radio.\n\n---"
+  },
+  {
+    "id": 78,
+    "title": "BROADBAND FUNDING NAVIGATOR",
+    "body": "Create a structured funding architecture covering:\n\n- federal broadband programs;\n- Texas broadband programs;\n- rural development;\n- digital equity;\n- infrastructure;\n- libraries;\n- schools;\n- telehealth.\n\nDo not fabricate active opportunities.\n\n---"
+  },
+  {
+    "id": 79,
+    "title": "BEAD / BROADBAND DEPLOYMENT TRACKER",
+    "body": "Where applicable, create a transparent project layer for:\n\n- award;\n- geography;\n- technology;\n- timeline;\n- premises;\n- construction;\n- activation.\n\nAlways distinguish:\n\nannounced\nawarded\nunder construction\noperational.\n\n---"
+  },
+  {
+    "id": 80,
+    "title": "PROJECT TRANSPARENCY",
+    "body": "Every public infrastructure project should show:\n\n- responsible entity;\n- funding source;\n- award date;\n- expected completion;\n- status;\n- geography;\n- verification date.\n\n---"
+  },
+  {
+    "id": 81,
+    "title": "GOVERNMENT DOCUMENT LIBRARY",
+    "body": "Include relevant:\n\n- Texas broadband plans;\n- federal broadband guidance;\n- BEAD documents;\n- digital-equity plans;\n- local broadband studies;\n- public funding documents.\n\nFor each show:\n\n- title;\n- issuing body;\n- date;\n- jurisdiction;\n- plain-language summary;\n- practical implications;\n- official source.\n\n---"
+  },
+  {
+    "id": 82,
+    "title": "CIVIC PARTICIPATION",
+    "body": "Provide neutral procedural information for:\n\n- broadband planning meetings;\n- mapping challenges;\n- local infrastructure hearings;\n- public comment;\n- digital-equity planning.\n\n---"
+  },
+  {
+    "id": 83,
+    "title": "RESEARCH REQUIREMENT",
+    "body": "Prioritize:\n\n- Texas Broadband Development Office;\n- Texas Comptroller;\n- NTIA;\n- FCC;\n- USDA Rural Development;\n- Census Bureau;\n- libraries;\n- schools;\n- research universities;\n- peer-reviewed digital-divide research.\n\nNever invent statistics.\n\n---"
+  },
+  {
+    "id": 84,
+    "title": "EVIDENCE CLASSIFICATION",
+    "body": "Use:\n\nA — official measured data\nB — peer-reviewed evidence\nC — institutional analysis\nD — preliminary evidence\nE — modeled scenario\nF — conceptual proposal.\n\n---"
+  },
+  {
+    "id": 85,
+    "title": "DATA PROVENANCE",
+    "body": "Track:\n\n- source;\n- publisher;\n- dataset;\n- geography;\n- publication date;\n- retrieval date;\n- update frequency;\n- limitations;\n- license.\n\n---"
+  },
+  {
+    "id": 86,
+    "title": "DATA FRESHNESS",
+    "body": "Show:\n\nLive\nRecent\nCached\nHistorical\nUnknown.\n\nDo not use color alone.\n\n---"
+  },
+  {
+    "id": 87,
+    "title": "LIVE DATA ADAPTERS",
+    "body": "Where documented feeds exist, support modular adapters for:\n\n- broadband maps;\n- service availability;\n- project status;\n- outages;\n- public Wi-Fi.\n\nDo not hardcode undocumented APIs.\n\n---"
+  },
+  {
+    "id": 88,
+    "title": "OPEN DATA EXPORT",
+    "body": "Allow export of:\n\n- community profiles;\n- speed logs;\n- project data;\n- coverage-gap observations;\n- device inventories.\n\nUse validated JSON and optional CSV.\n\n---"
+  },
+  {
+    "id": 89,
+    "title": "OFFLINE MODE",
+    "body": "Offline-ready features should include:\n\n- saved connectivity plan;\n- digital-literacy resources;\n- cybersecurity guides;\n- device inventories;\n- saved public-resource entries;\n- project records.\n\nClearly mark which information may be stale.\n\n---"
+  },
+  {
+    "id": 90,
+    "title": "SEARCH",
+    "body": "Search across:\n\n- broadband;\n- devices;\n- skills;\n- projects;\n- resources;\n- funding;\n- documents;\n- glossary.\n\n---"
+  },
+  {
+    "id": 91,
+    "title": "ACCESSIBILITY",
+    "body": "Target WCAG 2.2 AA.\n\nSupport:\n\n- keyboard;\n- screen readers;\n- captions;\n- high contrast;\n- reduced motion;\n- scalable text;\n- large touch targets.\n\n---"
+  },
+  {
+    "id": 92,
+    "title": "LANGUAGE",
+    "body": "Support:\n\n- English;\n- Spanish.\n\nArchitect for additional languages.\n\n---"
+  },
+  {
+    "id": 93,
+    "title": "PRIVACY",
+    "body": "Connectivity data can reveal:\n\n- home location;\n- work patterns;\n- school access;\n- household income.\n\nDefault to local storage.\n\nDo not transmit sensitive data without explicit informed action.\n\n---"
+  },
+  {
+    "id": 94,
+    "title": "DATA SOVEREIGNTY",
+    "body": "Allow users to:\n\n- export;\n- import;\n- inspect;\n- delete;\n- reset modules;\n- create backups.\n\nNo hidden telemetry.\n\n---"
+  },
+  {
+    "id": 95,
+    "title": "SECURITY",
+    "body": "Use:\n\n- safe DOM rendering;\n- validated imports;\n- defensive parsing;\n- no embedded secrets;\n- HTTPS guidance;\n- CSP guidance.\n\nOptional SHA-256 integrity verification.\n\nClarify:\n\n**hashing verifies integrity, not authorship.**\n\n---"
+  },
+  {
+    "id": 96,
+    "title": "PRINT MODE",
+    "body": "Provide printable:\n\n- household connectivity plan;\n- community gap report;\n- broadband project brief;\n- digital-literacy plan;\n- public Wi-Fi inventory.\n\n---"
+  },
+  {
+    "id": 97,
+    "title": "VISUAL DESIGN",
+    "body": "Use a modern Texas connectivity aesthetic.\n\nPotential motifs:\n\n- fiber lines;\n- wireless coverage rings;\n- county maps;\n- network nodes;\n- opportunity pathways;\n- infrastructure layers.\n\nAvoid visual design that equates “connected” with “urban.”\n\n---"
+  },
+  {
+    "id": 98,
+    "title": "OPTIONAL CONNECTIVITY HUD",
+    "body": "Possible metrics:\n\nConnections Improved\nDevices Restored\nSkills Learned\nPublic Access Added\nProjects Designed\nCoverage Gaps Documented.\n\nAchievements:\n\nDigital Navigator\nConnectivity Builder\nDevice Steward\nCyber Safety Guide\nCommunity Network Planner\nOpportunity Connector.\n\nGamification must never gate essential resources.\n\n---"
+  },
+  {
+    "id": 99,
+    "title": "META-PROMPT ENGINE",
+    "body": "Inputs:\n\n- geography;\n- user type;\n- connectivity problem;\n- available technology;\n- budget;\n- timeline;\n- public facilities;\n- affordability constraints.\n\nGenerate prompts such as:\n\n“Design a five-year connectivity strategy for a rural Texas county with sparse population, limited fiber, weak mobile coverage and low household adoption. Compare fiber, fixed wireless, satellite, public Wi-Fi, device programs and digital-literacy interventions by cost, implementation time, reliability and people served.”\n\n---"
+  },
+  {
+    "id": 100,
+    "title": "PROJECT DISCOVERY ENGINE",
+    "body": "Examples:\n\nCoverage available\n+ low adoption\n+ high price\n\n→ evaluate affordability + outreach + digital-literacy interventions.\n\nNo wired broadband\n+ line-of-sight tower opportunity\n\n→ evaluate fixed wireless.\n\nLow-income students\n+ limited device access\n+ adequate broadband\n\n→ evaluate device bank + lending program.\n\nClinic access gap\n+ reliable broadband\n+ community building\n\n→ evaluate telehealth hub.\n\nAlways present interventions as candidates for evaluation.\n\n---"
+  },
+  {
+    "id": 101,
+    "title": "CROSS-SYSTEM INTEGRATION",
+    "body": "Integrate with:\n\nTexas Learning OS\nTexas Health OS\nTexas Mobility OS\nTexas Energy OS\nTexas Water OS\nTexas Food OS\nTexas Community Resilience OS.\n\nExamples:\n\nBroadband\n→ remote learning.\n\nConnectivity\n→ telehealth.\n\nDigital access\n→ remote employment.\n\nOutage\n→ communication failure.\n\nFarm connectivity\n→ irrigation automation.\n\nGrid connectivity\n→ demand response.\n\nThis integration is essential.\n\n---"
+  },
+  {
+    "id": 102,
+    "title": "OPPORTUNITY CASCADE MODEL",
+    "body": "Visualize:\n\nConnectivity\n→ Information Access\n→ Education\n→ Skills\n→ Employment\n→ Income\n→ Household Stability.\n\nAnother:\n\nConnectivity\n→ Telehealth\n→ Reduced Travel\n→ Improved Access.\n\nClearly distinguish association from guaranteed causation.\n\n---"
+  },
+  {
+    "id": 103,
+    "title": "DIGITAL RESILIENCE",
+    "body": "Assess whether households and communities can continue critical digital functions during:\n\n- ISP outages;\n- power outages;\n- equipment failure;\n- disasters.\n\nPotential resilience measures:\n\n- backup power;\n- secondary connections;\n- offline copies;\n- hotspot plans;\n- public hubs.\n\n---"
+  },
+  {
+    "id": 104,
+    "title": "CONNECTIVITY + POWER RESILIENCE",
+    "body": "Integrate with Texas Energy OS.\n\nModel:\n\nBroadband equipment\n+ router\n+ modem\n+ Wi-Fi\n+ backup battery.\n\nCalculate approximate backup runtime.\n\n---"
+  },
+  {
+    "id": 105,
+    "title": "COMMUNITY CONNECTIVITY SCORECARD",
+    "body": "Potential indicators:\n\n- availability;\n- affordability;\n- reliability;\n- devices;\n- skills;\n- accessibility;\n- redundancy;\n- public access.\n\nDo not present as official.\n\n---"
+  },
+  {
+    "id": 106,
+    "title": "30 / 60 / 90 DAY PLANS",
+    "body": "Example household:\n\n30 days:\nmeasure connectivity and device gaps.\n\n60 days:\nimprove plan/device/security setup.\n\n90 days:\nestablish backup access and digital skills.\n\nExample county:\n\n30 days:\nmap gaps.\n\n60 days:\nidentify infrastructure and adoption barriers.\n\n90 days:\nlaunch pilot interventions.\n\n---"
+  },
+  {
+    "id": 107,
+    "title": "SUCCESS METRICS",
+    "body": "Track:\n\n- households connected;\n- affordability improved;\n- devices distributed or refurbished;\n- digital-literacy sessions completed;\n- public access points added;\n- telehealth access enabled;\n- businesses digitized;\n- coverage gaps documented;\n- projects activated.\n\nSeparate measured from modeled outcomes.\n\n---"
+  },
+  {
+    "id": 108,
+    "title": "TEXAS CONNECTIVITY ROADMAP",
+    "body": "Organize:\n\nNOW\nNEXT\nEMERGING\nFRONTIER.\n\nStakeholders:\n\nIndividual\nHousehold\nSchool\nLibrary\nClinic\nBusiness\nCommunity\nCounty\nRegion\nState.\n\n---"
+  },
+  {
+    "id": 109,
+    "title": "ZERO-HARM / ANTI-INVERSION",
+    "body": "Include a clear statement that the system exists to improve:\n\n- access;\n- opportunity;\n- education;\n- health;\n- resilience;\n- digital autonomy.\n\nIt must not:\n\n- enable surveillance;\n- exploit digital-exclusion data;\n- expose household locations;\n- manipulate vulnerable users;\n- encourage insecure device practices;\n- overstate connectivity benefits;\n- conceal uncertainty.\n\n---"
+  },
+  {
+    "id": 110,
+    "title": "ATTRIBUTIONS & LICENSES",
+    "body": "Include:\n\n**Ricky Foster + Navi**\n**Planetary Restoration Archive**\n\nfor systems architecture/concept where appropriate.\n\nAttribute:\n\n- datasets;\n- APIs;\n- maps;\n- research;\n- libraries;\n- adapted open-source patterns.\n\n---"
+  },
+  {
+    "id": 111,
+    "title": "FINAL QUALITY REQUIREMENT",
+    "body": "The finished application must function as a genuine **Texas Connectivity & Opportunity Operating System**, not:\n\n- an ISP directory;\n- static broadband map;\n- speed-test page;\n- digital-literacy blog;\n- grant-link collection.\n\nUsers should be able to:\n\n**measure\ndiagnose\ncompare\nlearn\nplan\nmap\nresearch\nrecord\nexport\ncoordinate\nbuild\nand act.**\n\nThe central design principle should be:\n\n**Connectivity has value only when people can afford it, trust it, use it safely, access adequate devices, and convert it into real educational, health, economic and community opportunity.**"
+  }
+]

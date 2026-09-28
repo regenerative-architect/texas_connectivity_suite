@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#071118">
+<meta name="description" content="Texas Connectivity & Opportunity Operating System — evidence-aware tools for broadband, affordability, devices, skills, resilience, projects and cross-domain collaboration.">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/css/app.css">
+<title>Texas Connectivity & Opportunity OS</title>
+</head>
+<body>
+<a class="skip" href="#outlet">Skip to content</a>
+<div id="splash" class="splash" role="dialog" aria-modal="true" aria-label="Texas Connectivity OS loading"><div class="splashInner"><div class="splashOrb" aria-hidden="true"><span>★</span><i></i><i></i><i></i></div><div class="eyebrow">Texas · decentralized collaboration · local-first</div><h1>Connectivity & Opportunity OS</h1><p>From signal to skills, services, resilience and opportunity.</p><div class="splashFlow"><span>Measure</span><b>→</b><span>Understand</span><b>→</b><span>Coordinate</span><b>→</b><span>Build</span></div><div class="splashTrack"><i></i></div><div class="splashSteps"><span>Evidence</span><span>Offline tools</span><span>WebLLM</span><span>Peer commons</span></div><button id="skipSplash" class="btn splashSkip">Enter workspace</button><small>Core data stays local by default. Peer rooms are opt-in.</small></div></div>
+<header>
+ <button id="menuBtn" class="iconbtn" aria-label="Open navigation">☰</button>
+ <div class="brand"><div class="brandmark">★</div><div><strong>Texas Connectivity OS</strong><small>Evidence · Opportunity · Collaboration</small></div></div>
+ <nav id="topnav" class="topnav" aria-label="Primary"></nav>
+ <span class="status"><span id="netDot" class="dot"></span><span id="netText">Checking…</span></span>
+ <span class="status collabStatus"><span id="collabDot" class="dot"></span><span id="collabText">Solo/local</span></span>
+ <button id="searchBtn" class="iconbtn" aria-label="Search">⌕</button>
+ <button id="settingsBtn" class="iconbtn" aria-label="Settings">⚙</button>
+</header>
+<div class="shell">
+ <aside class="sidebar" aria-label="Module navigation"><div id="sidenav"></div><footer>Texas Connectivity & Opportunity OS v3.0<br>Ricky Foster + Navi · Planetary Restoration Archive<br><br>Local-first by default. Hosted collaboration is opt-in.</footer></aside>
+ <div id="drawerScrim" class="drawerScrim" hidden></div>
+ <main class="workspace"><div id="crumbs" class="crumbs"></div><div id="outlet" tabindex="-1"></div></main>
+</div>
+<details id="hud" class="hud" open><summary>Opportunity HUD</summary><div class="hudbody"><div class="hudstats"><div><b id="hudProjects">0</b><span class="small">Projects</span></div><div><b id="hudTasks">0</b><span class="small">Tasks</span></div><div><b id="hudEvidence">0</b><span class="small">Sources</span></div></div><p id="hudLine" class="small muted"></p></div></details>
+<div id="settings" class="settings" hidden></div>
+<div id="searchModal" class="modal" hidden><div class="modalbox"><div class="actions"><input id="globalSearch" class="search" style="flex:1" placeholder="Search modules, sources and 111 requirements…"><button id="closeSearch" class="btn">Close</button></div><p class="small muted">Shortcut: Ctrl/⌘ + K</p><div id="searchResults"></div></div></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><div class="noscript"><h1>JavaScript is disabled</h1><p>The interactive OS requires JavaScript. The bundle still contains the source registry, documentation and original 111-section specification in the <code>data</code> and <code>docs</code> directories.</p></div></noscript>
+<script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>

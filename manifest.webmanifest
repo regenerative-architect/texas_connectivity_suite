@@ -1,0 +1,32 @@
+{
+  "name": "Texas Connectivity & Opportunity Operating System",
+  "short_name": "TX Connectivity OS",
+  "description": "Texas connectivity and digital opportunity OS with local-first tools, WebLLM, PWA offline support, and decentralized Trystero/WebRTC collaboration.",
+  "start_url": "./index.html#/overview",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071118",
+  "theme_color": "#071118",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Diagnostic Lab",
+      "url": "./index.html#/diagnostics"
+    },
+    {
+      "name": "Project Studio",
+      "url": "./index.html#/projects"
+    },
+    {
+      "name": "Multiplayer Commons",
+      "url": "./index.html#/collaboration"
+    }
+  ]
+}
